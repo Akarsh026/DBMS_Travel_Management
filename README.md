@@ -78,7 +78,7 @@ Key relationships are established:
 ### Relational Schema
 
 The tables are designed as follows:
-
+```
 | Table Name | Attributes (PK - Primary Key, FK - Foreign Key) |
 | :--- | :--- |
 | **TRAVEL\_AGENT** | $\text{agent\_id (PK)}$, $\text{agent\_name}$, $\text{username}$, $\text{password}$ |
@@ -86,7 +86,7 @@ The tables are designed as follows:
 | **BOOKING** | $\text{booking\_id (PK)}$, $\text{booking\_date}$, $\text{pid (FK)}$, $\text{cid (FK)}$, $\text{agent\_id (FK)}$ |
 | **PACKAGE** | $\text{package\_id (PK)}$, $\text{package\_name}$, $\text{package\_dest}$, $\text{package\_price}$, $\text{no\_of\_days}$, $\text{vehicle\_type}$, $\text{agent\_id (FK)}$ |
 | **EMPLOYEE** | $\text{eid (PK)}$, $\text{name}$, $\text{role}$, $\text{agent\_id (FK)}$ |
-
+```
 ---
 
 ## 🚀 Setup and Installation
